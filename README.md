@@ -62,6 +62,14 @@ scp contrib/srvfb.service contrib/srvfb.socket root@10.11.99.1:/etc/systemd/syst
 ssh root@10.11.99.1 systemctl enable --now srvfb.socket
 ```
 
+## GO
+For fetching the latest version:
+```
+sudo add-apt-repository ppa:longsleep/golang-backports
+sudo apt update
+sudo apt install golang-go
+```
+
 # License
 
 Apart where otherwise noted, this code is published under the Apache License,
